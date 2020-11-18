@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.unistuttgart.iste.rss.oo.hamstersimulator</groupId>
-	<artifactId>HamsterExerciseTemplate</artifactId>
+	<artifactId>Exercise05</artifactId>
 	<name>Hamster Simulator Root Project</name>
     <version>1.0.0</version>
 
@@ -35,9 +35,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
 				<configuration>
-					<release>14</release>
-					<source>14</source>
-					<target>14</target>
+					<release>15</release>
+					<source>15</source>
+					<target>15</target>
 				</configuration>
             </plugin>
 			<plugin>
@@ -45,7 +45,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.0.0</version>
 				<configuration>
-					<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.exercise00.homework.TemplateHamsterGameApp</mainClass>
+					<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05.praesenz.ControlFlowHamsterGameApp</mainClass>
 				</configuration>
 			</plugin>
         </plugins>
