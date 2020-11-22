@@ -4,13 +4,14 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamster
 
 
 /**
- * A template SimpleHamsterGame
+ * Ein Hamsterspiel, um die Kontrollflussstrukturen zu testen.
+ *
+ * @author [Name u. Matrikelnummer]
  */
 public class ControlFlowHamsterGame extends SimpleHamsterGame {
     
     /**
-     * Put the hamster code into this method.
-     * Solve the task in this method NOT in the constructor
+     * Startet das Spiel mit einem vorgefertigtem Territory.
      */
     @Override
     protected void run() {
