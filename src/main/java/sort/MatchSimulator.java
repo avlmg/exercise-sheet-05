@@ -1,4 +1,4 @@
-package sortieren;
+package sort;
 
 /**
  * Diese Klasse enthaelt die Implementierung des Simulators fuer Spiele.

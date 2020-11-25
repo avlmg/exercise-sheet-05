@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05.praesenz;
+package de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05;
 
 /**
  * Diese Klasse enthält die {@code main}-Methode, um das

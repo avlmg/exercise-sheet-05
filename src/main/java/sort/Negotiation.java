@@ -1,4 +1,4 @@
-package sortieren;
+package sort;
 
 /**
  * In dieser Klasse wird die Implementierung von Methoden zur Durchfuehrung

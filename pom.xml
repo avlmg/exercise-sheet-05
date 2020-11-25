@@ -45,7 +45,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.0.0</version>
 				<configuration>
-					<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05.praesenz.ControlFlowHamsterGameApp</mainClass>
+					<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05.ControlFlowHamsterGameApp</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

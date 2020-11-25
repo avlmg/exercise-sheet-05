@@ -1,4 +1,4 @@
-package sortieren;
+package sort;
 
 /**
  * Diese Klasse enthaelt die Implementierung des Hauptfensters der Benutzeroberflaeche.

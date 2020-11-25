@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05.praesenz;
+package de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05;
 
 import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamsterGame;
 
@@ -20,15 +20,35 @@ public class ControlFlowHamsterGame extends SimpleHamsterGame {
         game.startGame();
 
        /*
-        TODO: Hier kann man die Operationen aufrufen, um diese zu testen. Bitte NICHT die
-        obigen Operationen veraendern!
+        * TODO: Hier kann man die Operationen aufrufen, um diese zu testen. Bitte NICHT die
+        *       obigen Operationsaufrufe veraendern!
         */
     }
 
-    private void traverseTerritory() {
-        /*
-         * TODO: Aufgabe 2
-         */
+    /*
+     * In den folgenden Operationen implementieren Sie die Aussagen (i) - (v) der Aufgabe 2.
+     * Vergessen Sie nicht, JavaDoc und Vor- und Nachbedingungen für die operationen zu schreiben.
+     * Schreiben Sie ebenfalls FUER JEDE SCHLEIFE die SCHLEIFENINVARIANTEN und -VARIANTEN.
+     */
+
+    private void pickGrainsIfAvailable() {
+
+    }
+
+    private void pickAllGrains() {
+
+    }
+
+    private void multiMove(Integer times) {
+
+    }
+
+    private void pickGrainOrMove() {
+
+    }
+
+    private void pickAllGrainsOnNonEmptyTile() {
+
     }
 
     private void cleanTerritory() {
@@ -37,7 +57,7 @@ public class ControlFlowHamsterGame extends SimpleHamsterGame {
          */
     }
 
-    private void putGrains(int amountOfGrains) {
+    private void putGrains(Integer amountOfGrains) {
         /*
          * TODO: Aufgabe 2
          */

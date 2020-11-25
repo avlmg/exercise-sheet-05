@@ -1,4 +1,4 @@
-package sortieren;
+package sort;
 
 /**
  * In dieser Klasse befindet sich die Implementierung des Sidepanels im MainWindows.

@@ -1,4 +1,4 @@
-package sortieren;
+package sort;
 
 /**
  * In dieser Klasse werden Informationen zu einem Spiel zwischen zwei Mannschaften

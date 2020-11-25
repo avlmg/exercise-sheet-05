@@ -1,4 +1,4 @@
-package sortieren;
+package sort;
 
 /**
  * In dieser Klasse werden Informationen über einen Spieler der Simulation gespeichert
