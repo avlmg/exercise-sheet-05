@@ -7,7 +7,7 @@
     <version>1.0.0</version>
 
 	<properties>
-		<hamster.version>2.4</hamster.version>
+		<hamster.version>2.5</hamster.version>
     </properties>
 
 	<repositories>
@@ -48,6 +48,6 @@
 					<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05.praesenz.ControlFlowHamsterGameApp</mainClass>
 				</configuration>
 			</plugin>
-        </plugins>
+		</plugins>
     </build>
 </project>
