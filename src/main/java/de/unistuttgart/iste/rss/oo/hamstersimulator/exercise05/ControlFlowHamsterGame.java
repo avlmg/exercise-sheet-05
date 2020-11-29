@@ -31,7 +31,7 @@ public class ControlFlowHamsterGame extends SimpleHamsterGame {
      * Schreiben Sie ebenfalls FUER JEDE SCHLEIFE die SCHLEIFENINVARIANTEN und -VARIANTEN.
      */
 
-    private void pickGrainsIfAvailable() {
+    private void pickGrainIfAvailable() {
 
     }
 
