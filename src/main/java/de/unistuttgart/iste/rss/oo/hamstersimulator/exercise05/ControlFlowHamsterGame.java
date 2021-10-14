@@ -1,6 +1,6 @@
 package de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05;
 
-import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamsterGame;
+import de.hamstersimulator.objectsfirst.external.model.SimpleHamsterGame;
 
 
 /**
