@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05;
+package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise;
 
 /**
  * Diese Klasse enthält die {@code main}-Methode, um das

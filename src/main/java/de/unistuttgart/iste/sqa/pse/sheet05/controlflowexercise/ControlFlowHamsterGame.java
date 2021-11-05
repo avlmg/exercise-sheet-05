@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05;
+package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise;
 
 import de.hamstersimulator.objectsfirst.external.model.SimpleHamsterGame;
 

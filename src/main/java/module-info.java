@@ -1,4 +1,4 @@
 open module exercise {
     requires de.hamstersimulator.objectsfirst.main;
-    exports de.unistuttgart.iste.rss.oo.hamstersimulator.exercise05;
+    exports de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise;
 }
