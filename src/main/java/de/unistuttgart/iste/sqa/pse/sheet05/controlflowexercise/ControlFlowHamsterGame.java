@@ -1,17 +1,17 @@
 package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise;
 
-import de.hamstersimulator.objectsfirst.external.model.SimpleHamsterGame;
-
+import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 
 /**
- * Ein Hamsterspiel, um die Kontrollflussstrukturen zu testen.
+ * A new HamsterGame to try out some control flow structures.
  *
- * @author [Name u. Matrikelnummer]
+ * @author (your name)
+ * @version (version number or date)
  */
 public class ControlFlowHamsterGame extends SimpleHamsterGame {
     
     /**
-     * Startet das Spiel mit einem vorgefertigtem Territory.
+     * Starts the game with a predetermined territory.
      */
     @Override
     protected void run() {
@@ -20,52 +20,46 @@ public class ControlFlowHamsterGame extends SimpleHamsterGame {
         game.startGame();
 
        /*
-        * TODO: Hier kann man die Operationen aufrufen, um diese zu testen. Bitte NICHT die
-        *       obigen Operationsaufrufe veraendern!
+        * Call your methods here, in order to test them.
+        * Do not modify any other parts of this method.
         */
     }
 
     /*
-     * In den folgenden Operationen implementieren Sie die Aussagen (i) - (v) der Aufgabe 2.
-     * Vergessen Sie nicht, JavaDoc und Vor- und Nachbedingungen für die operationen zu schreiben.
-     * Schreiben Sie ebenfalls FUER JEDE SCHLEIFE die SCHLEIFENINVARIANTEN und -VARIANTEN.
+     * Please implement your solutions for exercise 2 into the following methods.
+     * Remember to add the appropriate JavaDoc documentation and pre-post conditions for each operation
+     * as well as the variants and loop invariants for any loops that are part of your implementation.
      */
 
     private void pickGrainIfAvailable() {
-
+        //TODO: Please implement according to exercise 2(b)
     }
 
     private void pickAllGrains() {
-
+        //TODO: Please implement according to exercise 2(c)
     }
 
     private void multiMove(Integer times) {
-
+        //TODO: Please implement according to exercise 2(d)
     }
 
     private void pickGrainOrMove() {
-
+        //TODO: Please implement according to exercise 2(e)
     }
 
     private void pickAllGrainsOnNonEmptyTile() {
-
+        //TODO: Please implement according to exercise 2(f)
     }
 
     private void cleanTerritory() {
-        /*
-         * TODO: Aufgabe 2
-         */
+        //TODO: Please implement according to exercise 2(i)/(k)
     }
 
     private void putGrains(Integer amountOfGrains) {
-        /*
-         * TODO: Aufgabe 2
-         */
+        //TODO: Please implement according to exercise 2(j)
     }
 
     private void emptyMouth() {
-        /*
-         * TODO: Aufgabe 2
-         */
+        //TODO: Please implement according to exercise 2(j)
     }
 }

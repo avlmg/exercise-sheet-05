@@ -1,8 +1,8 @@
 package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise;
 
 /**
- * Diese Klasse enthält die {@code main}-Methode, um das
- * Spiel zu starten. Diese Klasse muss nicht beruehrt werden!
+ * This class contains the {@code main}-method, responsible for starting the game.
+ * Do not modify!
  */
 public class ControlFlowHamsterGameApp {
     public static void main(String[] args) {
