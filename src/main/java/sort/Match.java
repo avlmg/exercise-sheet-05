@@ -1,9 +1,9 @@
 package sort;
 
 /**
- * In dieser Klasse werden Informationen zu einem Spiel zwischen zwei Mannschaften
- * gespeichert und bereitgestellt.
- * @author Max Mustermann
+ * This class represents a single match between two players.
+ *
+ * @author Jane Doe
  */
 public class Match {
 }

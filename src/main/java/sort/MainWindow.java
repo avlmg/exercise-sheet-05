@@ -1,11 +1,10 @@
 package sort;
 
 /**
- * Diese Klasse enthaelt die Implementierung des Hauptfensters der Benutzeroberflaeche.
- * Dies ist die Ansicht, die beim Programmstart aufgerufen wird. Im Hauptfenster befinden
- * sich mehrere Widgets fuer die unterschiedlichen Programmteile.
+ * This class contains the implementation for the main view of the user interface.
+ * A view can be comprised of multiple sub views.
  *
- * @author Max Mustermann
+ * @author Jane Doe
  */
 public class MainWindow {
 }

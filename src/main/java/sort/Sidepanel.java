@@ -1,11 +1,9 @@
 package sort;
 
 /**
- * In dieser Klasse befindet sich die Implementierung des Sidepanels im MainWindows.
- * Im Sidepanel befinden sich unterschiedliche Bedienelemente, die das Auswaehlen
- * des Spielmodus, das Laden von Spielstaenden, oder das Aufrufen des Editors ermoeglichen.
+ * This class contains the implementation of a side panel.
  *
- * @author Max Mustermann
+ * @author Jane Doe
  */
 public class Sidepanel {
 }

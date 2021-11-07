@@ -1,9 +1,9 @@
 package sort;
 
 /**
- * In dieser Klasse werden Informationen über einen Spieler der Simulation gespeichert
- * und bereitgestellt.
- * @author Max Mustermann
+ * This class represents a player profile.
+ *
+ * @author Jane Doe
  */
 public class Player {
 }
