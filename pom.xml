@@ -37,12 +37,75 @@
 				<version>3.0.0</version>
 				<executions>
 					<execution>
-						<id>ControlFlowHamsterGameApp</id>
+						<id>PickAvailableGrainGameApp</id>
 						<goals>
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.ControlFlowHamsterGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games.PickAvailableGrainGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>PickAllGrainsGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games.PickAllGrainsGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>MultiMoveGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games.MultiMoveGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>PickOrMoveGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games.PickOrMoveGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>PickNonEmptyTilesGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games.PickNonEmptyTilesGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>PutGrainsGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games.PutGrainsGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>EmptyMouthGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games.EmptyMouthGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>CleaningGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games.CleaningGameApp</mainClass>
 						</configuration>
 					</execution>
 				</executions>

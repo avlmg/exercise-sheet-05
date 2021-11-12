@@ -1,5 +1,7 @@
 package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise;
 
+import de.hamstersimulator.objectsfirst.datatypes.Direction;
+import de.hamstersimulator.objectsfirst.datatypes.Location;
 import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 
 /**
@@ -8,21 +10,27 @@ import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
  * @author (your name)
  * @version (version number or date)
  */
-public class ControlFlowHamsterGame extends SimpleHamsterGame {
-    
+public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
+
+    protected final String territoryFile;
+
+    /**
+     * Constructor for the BaseControlFlowHamsterGame class
+     *
+     * @param territoryFile file-path to the .ter file specifying the game territory
+     */
+    public BaseControlFlowHamsterGame(String territoryFile) {
+        this.territoryFile = territoryFile;
+    }
+
     /**
      * Starts the game with a predetermined territory.
      */
     @Override
     protected void run() {
-        this.loadTerritoryFromResourceFile("/territories/territoryExample05.ter");
+        this.loadTerritoryFromResourceFile(territoryFile);
         this.displayInNewGameWindow();
         game.startGame();
-
-       /*
-        * Call your methods here, in order to test them.
-        * Do not modify any other parts of this method.
-        */
     }
 
     /*
@@ -31,35 +39,35 @@ public class ControlFlowHamsterGame extends SimpleHamsterGame {
      * as well as the variants and loop invariants for any loops that are part of your implementation.
      */
 
-    private void pickGrainIfAvailable() {
+    protected void pickGrainIfAvailable() {
         //TODO: Please implement according to exercise 2(b)
     }
 
-    private void pickAllGrains() {
+    protected void pickAllGrains() {
         //TODO: Please implement according to exercise 2(c)
     }
 
-    private void multiMove(Integer times) {
+    protected void multiMove(Integer times) {
         //TODO: Please implement according to exercise 2(d)
     }
 
-    private void pickGrainOrMove() {
+    protected void pickGrainOrMove() {
         //TODO: Please implement according to exercise 2(e)
     }
 
-    private void pickAllGrainsOnNonEmptyTile() {
+    protected void pickAllGrainsOnNonEmptyTile() {
         //TODO: Please implement according to exercise 2(f)
     }
 
-    private void cleanTerritory() {
+    protected void cleanTerritory() {
         //TODO: Please implement according to exercise 2(i)/(k)
     }
 
-    private void putGrains(Integer amountOfGrains) {
+    protected void putGrains(Integer amountOfGrains) {
         //TODO: Please implement according to exercise 2(j)
     }
 
-    private void emptyMouth() {
+    protected void emptyMouth() {
         //TODO: Please implement according to exercise 2(j)
     }
 }
