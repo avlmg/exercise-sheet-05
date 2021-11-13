@@ -4,16 +4,14 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class CleaningGame extends BaseControlFlowHamsterGame {
 
-    public CleaningGame(String territoryFile) {
-        super(territoryFile);
-    }
-
     /**
      * Starts the game with a predetermined territory and lets Paule walk through a short test scenario.
      */
     @Override
     protected void run() {
-        super.run();
+        this.loadTerritoryFromResourceFile("/territories/territoryExample05-8.ter");
+        this.displayInNewGameWindow();
+        game.startGame();
         cleanTerritory();
     }
 }

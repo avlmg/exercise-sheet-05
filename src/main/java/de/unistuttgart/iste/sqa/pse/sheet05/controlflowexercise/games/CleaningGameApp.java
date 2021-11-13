@@ -6,7 +6,7 @@ package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
  */
 public class CleaningGameApp {
     public static void main(String[] args) {
-        final CleaningGame game = new CleaningGame("/territories/territoryExample05-8.ter");
+        final CleaningGame game = new CleaningGame();
         game.doRun();
     }
 }

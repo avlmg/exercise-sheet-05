@@ -12,27 +12,6 @@ import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
  */
 public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 
-    protected final String territoryFile;
-
-    /**
-     * Constructor for the BaseControlFlowHamsterGame class
-     *
-     * @param territoryFile file-path to the .ter file specifying the game territory
-     */
-    public BaseControlFlowHamsterGame(String territoryFile) {
-        this.territoryFile = territoryFile;
-    }
-
-    /**
-     * Starts the game with a predetermined territory.
-     */
-    @Override
-    protected void run() {
-        this.loadTerritoryFromResourceFile(territoryFile);
-        this.displayInNewGameWindow();
-        game.startGame();
-    }
-
     /*
      * Please implement your solutions for exercise 2 into the following methods.
      * Remember to add the appropriate JavaDoc documentation and pre-post conditions for each operation

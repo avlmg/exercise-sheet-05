@@ -4,16 +4,14 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class EmptyMouthGame extends BaseControlFlowHamsterGame {
 
-    public EmptyMouthGame(String territoryFile) {
-        super(territoryFile);
-    }
-
     /**
      * Starts the game with a predetermined territory and lets Paule walk through a short test scenario.
      */
     @Override
     protected void run() {
-        super.run();
+        this.loadTerritoryFromResourceFile("/territories/territoryExample05-7.ter");
+        this.displayInNewGameWindow();
+        game.startGame();
 
         while(paule.frontIsClear()) {
             if(paule.grainAvailable()) {
