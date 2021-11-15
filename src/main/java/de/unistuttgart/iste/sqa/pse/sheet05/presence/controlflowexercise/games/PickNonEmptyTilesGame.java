@@ -1,6 +1,6 @@
-package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
 
-import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowHamsterGame;
+import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.BaseControlFlowHamsterGame;
 
 public class PickNonEmptyTilesGame extends BaseControlFlowHamsterGame {
 

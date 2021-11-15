@@ -1,7 +1,5 @@
-package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise;
 
-import de.hamstersimulator.objectsfirst.datatypes.Direction;
-import de.hamstersimulator.objectsfirst.datatypes.Location;
 import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 
 /**

@@ -1,12 +1,12 @@
-package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
 
 /**
  * This class contains the {@code main}-method, responsible for starting the game.
  * Do not modify!
  */
-public class EmptyMouthGameApp {
+public class MultiMoveGameApp {
     public static void main(String[] args) {
-        final EmptyMouthGame game = new EmptyMouthGame();
+        final MultiMoveGame game = new MultiMoveGame();
         game.doRun();
     }
 }

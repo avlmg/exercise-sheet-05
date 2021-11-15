@@ -1,13 +1,12 @@
-package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
 
 /**
  * This class contains the {@code main}-method, responsible for starting the game.
  * Do not modify!
  */
-public class PickAllGrainsGameApp {
-
+public class EmptyMouthGameApp {
     public static void main(String[] args) {
-        final PickAllGrainsGame game = new PickAllGrainsGame();
+        final EmptyMouthGame game = new EmptyMouthGame();
         game.doRun();
     }
 }

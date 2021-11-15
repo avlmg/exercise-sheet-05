@@ -1,4 +1,4 @@
-package sort;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.sort;
 
 /**
  * This class represents a trade negotiation.
