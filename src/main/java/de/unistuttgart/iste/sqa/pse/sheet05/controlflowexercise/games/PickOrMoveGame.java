@@ -4,14 +4,16 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class PickOrMoveGame extends BaseControlFlowHamsterGame {
 
+    public PickOrMoveGame(String territoryFile) {
+        super(territoryFile);
+    }
+
     /**
      * Starts the game with a predetermined territory and lets Paule walk through a short test scenario.
      */
     @Override
     protected void run() {
-        this.loadTerritoryFromResourceFile("/territories/territoryExample05-4.ter");
-        this.displayInNewGameWindow();
-        game.startGame();
+        super.run();
 
         while(paule.frontIsClear()) {
             pickGrainOrMove();

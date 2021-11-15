@@ -6,7 +6,7 @@ package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
  */
 public class EmptyMouthGameApp {
     public static void main(String[] args) {
-        final EmptyMouthGame game = new EmptyMouthGame();
+        final EmptyMouthGame game = new EmptyMouthGame("/territories/territoryExample05-7.ter");
         game.doRun();
     }
 }

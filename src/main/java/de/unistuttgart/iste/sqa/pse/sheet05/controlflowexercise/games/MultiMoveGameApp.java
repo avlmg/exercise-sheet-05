@@ -6,7 +6,7 @@ package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
  */
 public class MultiMoveGameApp {
     public static void main(String[] args) {
-        final MultiMoveGame game = new MultiMoveGame();
+        final MultiMoveGame game = new MultiMoveGame("/territories/territoryExample05-3.ter");
         game.doRun();
     }
 }

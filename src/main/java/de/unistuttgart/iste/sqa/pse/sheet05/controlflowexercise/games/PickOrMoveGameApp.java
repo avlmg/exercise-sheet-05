@@ -7,7 +7,7 @@ package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
 public class PickOrMoveGameApp {
 
     public static void main(String[] args) {
-        final PickOrMoveGame game = new PickOrMoveGame();
+        final PickOrMoveGame game = new PickOrMoveGame("/territories/territoryExample05-4.ter");
         game.doRun();
     }
 }

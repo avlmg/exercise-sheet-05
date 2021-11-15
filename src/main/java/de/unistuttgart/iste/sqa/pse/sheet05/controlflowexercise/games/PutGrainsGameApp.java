@@ -6,7 +6,7 @@ package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
  */
 public class PutGrainsGameApp {
     public static void main(String[] args) {
-        final PutGrainsGame game = new PutGrainsGame();
+        final PutGrainsGame game = new PutGrainsGame("/territories/territoryExample05-6.ter");
         game.doRun();
     }
 }

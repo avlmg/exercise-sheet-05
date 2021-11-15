@@ -7,7 +7,7 @@ package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
 public class PickNonEmptyTilesGameApp {
 
     public static void main(String[] args) {
-        final PickNonEmptyTilesGame game = new PickNonEmptyTilesGame();
+        final PickNonEmptyTilesGame game = new PickNonEmptyTilesGame("/territories/territoryExample05-5.ter");
         game.doRun();
     }
 }

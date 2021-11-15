@@ -4,14 +4,16 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class PickAvailableGrainGame extends BaseControlFlowHamsterGame {
 
+    public PickAvailableGrainGame(String territoryFile) {
+        super(territoryFile);
+    }
+
     /**
      * Starts the game with a predetermined territory and lets Paule walk through a short test scenario.
      */
     @Override
     protected void run() {
-        this.loadTerritoryFromResourceFile("/territories/territoryExample05-1.ter");
-        this.displayInNewGameWindow();
-        game.startGame();
+        super.run();
 
         while(paule.frontIsClear()) {
             pickGrainIfAvailable();
