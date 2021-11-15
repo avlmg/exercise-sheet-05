@@ -4,8 +4,8 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class PutGrainsGame extends BaseControlFlowHamsterGame {
 
-    public PutGrainsGame(String territoryFile) {
-        super(territoryFile);
+    public PutGrainsGame() {
+        super("/territories/territoryExample05-6.ter");
     }
 
     /**

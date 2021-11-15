@@ -4,8 +4,8 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class PickNonEmptyTilesGame extends BaseControlFlowHamsterGame {
 
-    public PickNonEmptyTilesGame(String territoryFile) {
-        super(territoryFile);
+    public PickNonEmptyTilesGame() {
+        super("/territories/territoryExample05-5.ter");
     }
 
     /**

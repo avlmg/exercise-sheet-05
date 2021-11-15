@@ -4,8 +4,8 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class PickAvailableGrainGame extends BaseControlFlowHamsterGame {
 
-    public PickAvailableGrainGame(String territoryFile) {
-        super(territoryFile);
+    public PickAvailableGrainGame() {
+        super("/territories/territoryExample05-1.ter");
     }
 
     /**

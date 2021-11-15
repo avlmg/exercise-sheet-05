@@ -7,7 +7,7 @@ package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
 public class PickAllGrainsGameApp {
 
     public static void main(String[] args) {
-        final PickAllGrainsGame game = new PickAllGrainsGame("/territories/territoryExample05-2.ter");
+        final PickAllGrainsGame game = new PickAllGrainsGame();
         game.doRun();
     }
 }

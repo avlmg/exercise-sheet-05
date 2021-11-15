@@ -4,8 +4,8 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class EmptyMouthGame extends BaseControlFlowHamsterGame {
 
-    public EmptyMouthGame(String territoryFile) {
-        super(territoryFile);
+    public EmptyMouthGame() {
+        super("/territories/territoryExample05-7.ter");
     }
 
     /**

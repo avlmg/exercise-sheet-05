@@ -4,8 +4,8 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class MultiMoveGame extends BaseControlFlowHamsterGame {
 
-    public MultiMoveGame(String territoryFile) {
-        super(territoryFile);
+    public MultiMoveGame() {
+        super("/territories/territoryExample05-3.ter");
     }
 
     /**

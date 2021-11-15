@@ -4,8 +4,8 @@ import de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.BaseControlFlowH
 
 public class CleaningGame extends BaseControlFlowHamsterGame {
 
-    public CleaningGame(String territoryFile) {
-        super(territoryFile);
+    public CleaningGame() {
+        super("/territories/territoryExample05-8.ter");
     }
 
     /**

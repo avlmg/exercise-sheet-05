@@ -7,7 +7,7 @@ package de.unistuttgart.iste.sqa.pse.sheet05.controlflowexercise.games;
 public class PickAvailableGrainGameApp {
 
     public static void main(String[] args) {
-        final PickAvailableGrainGame game = new PickAvailableGrainGame("/territories/territoryExample05-1.ter");
+        final PickAvailableGrainGame game = new PickAvailableGrainGame();
         game.doRun();
     }
 }
