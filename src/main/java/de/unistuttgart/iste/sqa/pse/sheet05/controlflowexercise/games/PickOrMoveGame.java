@@ -13,7 +13,6 @@ public class PickOrMoveGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-        game.startGame();
 
         while(paule.frontIsClear()) {
             pickGrainOrMove();

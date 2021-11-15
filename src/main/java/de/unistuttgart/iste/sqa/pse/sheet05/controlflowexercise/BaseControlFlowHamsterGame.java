@@ -12,17 +12,15 @@ import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
  */
 public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 
-    protected final String territoryFile;
-
     /**
      * Constructor for the BaseControlFlowHamsterGame class
      *
      * @param territoryFile file-path to the .ter file specifying the game territory
      */
     public BaseControlFlowHamsterGame(String territoryFile) {
-        this.territoryFile = territoryFile;
         this.loadTerritoryFromResourceFile(territoryFile);
         this.displayInNewGameWindow();
+        game.startGame();
     }
 
     /*

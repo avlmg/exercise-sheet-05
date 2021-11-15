@@ -13,7 +13,6 @@ public class MultiMoveGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-        game.startGame();
         multiMove(5);
         multiMove(7);
     }

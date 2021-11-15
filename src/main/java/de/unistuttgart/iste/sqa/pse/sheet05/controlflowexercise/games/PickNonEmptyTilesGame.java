@@ -13,7 +13,6 @@ public class PickNonEmptyTilesGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-        game.startGame();
 
         while(paule.frontIsClear()) {
             if(paule.grainAvailable()) {
