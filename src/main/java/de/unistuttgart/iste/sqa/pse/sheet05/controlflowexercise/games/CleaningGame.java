@@ -13,7 +13,7 @@ public class CleaningGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-        super.run();
+        game.startGame();
         cleanTerritory();
     }
 }

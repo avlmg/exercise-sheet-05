@@ -21,16 +21,8 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
      */
     public BaseControlFlowHamsterGame(String territoryFile) {
         this.territoryFile = territoryFile;
-    }
-
-    /**
-     * Starts the game with a predetermined territory.
-     */
-    @Override
-    protected void run() {
         this.loadTerritoryFromResourceFile(territoryFile);
         this.displayInNewGameWindow();
-        game.startGame();
     }
 
     /*
