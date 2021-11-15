@@ -17,7 +17,7 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
      *
      * @param territoryFile file-path to the .ter file specifying the game territory
      */
-    public BaseControlFlowHamsterGame(String territoryFile) {
+    public BaseControlFlowHamsterGame(final String territoryFile) {
         this.loadTerritoryFromResourceFile(territoryFile);
         this.displayInNewGameWindow();
         game.startGame();
