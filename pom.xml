@@ -64,12 +64,21 @@
 						</configuration>
 					</execution>
 					<execution>
-						<id>PickOrMoveGameApp</id>
+						<id>PrimaryPickOrMoveGameApp</id>
 						<goals>
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PickOrMoveGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PrimaryPickOrMoveGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>SecondaryPickOrMoveGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.SecondaryPickOrMoveGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
@@ -100,12 +109,21 @@
 						</configuration>
 					</execution>
 					<execution>
-						<id>CleaningGameApp</id>
+						<id>PrimaryCleaningGameApp</id>
 						<goals>
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.CleaningGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PrimaryCleaningGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>SecondaryCleaningGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.SecondaryCleaningGameApp</mainClass>
 						</configuration>
 					</execution>
 				</executions>

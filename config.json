@@ -3,10 +3,12 @@
         "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PickAvailableGrainGameApp",
         "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PickAllGrainsGameApp",
         "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.MultiMoveGameApp",
-        "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PickOrMoveGameApp",
+        "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PrimaryPickOrMoveGameApp",
+        "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.SecondaryPickOrMoveGameApp",
         "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PickNonEmptyTileGameApp",
         "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PutGrainsGameApp",
         "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.EmptyMouthGameApp",
-        "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.CleaningGameApp"
+        "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PrimaryCleaningGameApp",
+        "exercise/de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.SecondaryCleaningGameApp"
     ]
 }

@@ -14,7 +14,10 @@
   mvn clean compile exec:java@MultiMoveGameApp
   ```
   ```sh
-  mvn clean compile exec:java@PickOrMoveGameApp
+  mvn clean compile exec:java@PrimaryPickOrMoveGameApp
+  ```
+  ```sh
+  mvn clean compile exec:java@SecondaryPickOrMoveGameApp
   ```
   ```sh
   mvn clean compile exec:java@PickNonEmptyTileGameApp
@@ -26,5 +29,9 @@
   mvn clean compile exec:java@EmptyMouthGameApp
   ```
   ```sh
-  mvn clean compile exec:java@CleaningGameApp
+  mvn clean compile exec:java@PrimaryCleaningGameApp
   ```
+  ```sh
+  mvn clean compile exec:java@SecondaryCleaningGameApp
+  ```
+  

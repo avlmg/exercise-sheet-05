@@ -4,10 +4,9 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
  * This class contains the {@code main}-method, responsible for starting the game.
  * Do not modify!
  */
-public class PickOrMoveGameApp {
-
+public class PrimaryCleaningGameApp {
     public static void main(String[] args) {
-        final PickOrMoveGame game = new PickOrMoveGame();
+        final PrimaryCleaningGame game = new PrimaryCleaningGame();
         game.doRun();
     }
 }

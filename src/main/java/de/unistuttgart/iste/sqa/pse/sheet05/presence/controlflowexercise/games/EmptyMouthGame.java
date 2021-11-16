@@ -13,7 +13,6 @@ public class EmptyMouthGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-
         while(paule.frontIsClear()) {
             if(paule.grainAvailable()) {
                 while(paule.grainAvailable()) {

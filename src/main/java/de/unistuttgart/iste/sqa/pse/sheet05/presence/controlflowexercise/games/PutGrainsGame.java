@@ -13,7 +13,6 @@ public class PutGrainsGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-
         while(paule.frontIsClear()) {
             while(paule.grainAvailable()) {
                 paule.pickGrain();

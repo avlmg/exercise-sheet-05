@@ -2,10 +2,10 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
 
 import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.BaseControlFlowHamsterGame;
 
-public class PickOrMoveGame extends BaseControlFlowHamsterGame {
+public class PrimaryCleaningGame extends BaseControlFlowHamsterGame {
 
-    public PickOrMoveGame() {
-        super("/territories/territoryExample05-4.ter");
+    public PrimaryCleaningGame() {
+        super("/territories/territoryExample05-8.1.ter");
     }
 
     /**
@@ -13,9 +13,6 @@ public class PickOrMoveGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-
-        while(paule.frontIsClear()) {
-            pickGrainOrMove();
-        }
+        cleanTerritory();
     }
 }
