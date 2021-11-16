@@ -13,8 +13,6 @@ public class SecondaryPickOrMoveGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-        while(paule.frontIsClear()) {
-            pickGrainOrMove();
-        }
+        pickGrainOrMove();
     }
 }
