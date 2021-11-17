@@ -2,10 +2,12 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
 
 import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.BaseControlFlowHamsterGame;
 
+import java.util.Optional;
+
 public class SecondaryPickOrMoveGame extends BaseControlFlowHamsterGame {
 
     public SecondaryPickOrMoveGame() {
-        super("/territories/territoryExample05-4.2.ter");
+        super("/territories/territoryExample05-4.2.ter", Optional.empty(), Optional.empty());
     }
 
     /**

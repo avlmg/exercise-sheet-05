@@ -2,10 +2,12 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
 
 import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.BaseControlFlowHamsterGame;
 
+import java.util.Optional;
+
 public class PickNonEmptyTilesGame extends BaseControlFlowHamsterGame {
 
     public PickNonEmptyTilesGame() {
-        super("/territories/territoryExample05-5.ter");
+        super("/territories/territoryExample05-5.ter" , Optional.empty(), Optional.empty());
     }
 
     /**
@@ -13,7 +15,7 @@ public class PickNonEmptyTilesGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-        while(paule.frontIsClear()) {
+        for (int i = 0; i < 13; i++) {
             if(paule.grainAvailable()) {
                 pickAllGrainsOnNonEmptyTile();
             }

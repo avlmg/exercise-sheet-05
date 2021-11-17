@@ -2,10 +2,12 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
 
 import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.BaseControlFlowHamsterGame;
 
+import java.util.Optional;
+
 public class MultiMoveGame extends BaseControlFlowHamsterGame {
 
     public MultiMoveGame() {
-        super("/territories/territoryExample05-3.ter");
+        super("/territories/territoryExample05-3.ter", Optional.of(2), Optional.of(6));
     }
 
     /**
@@ -13,7 +15,7 @@ public class MultiMoveGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-        multiMove(5);
-        multiMove(7);
+        multiMove(getRandomValue().get().get(0));
+        multiMove(getRandomValue().get().get(1));
     }
 }
