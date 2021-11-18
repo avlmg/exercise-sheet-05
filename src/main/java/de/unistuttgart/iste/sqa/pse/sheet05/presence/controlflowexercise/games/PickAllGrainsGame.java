@@ -7,11 +7,12 @@ import java.util.Optional;
 public class PickAllGrainsGame extends BaseControlFlowHamsterGame {
 
     public PickAllGrainsGame() {
-        super("/territories/territoryExample05-2.ter", Optional.empty(), Optional.empty());
+        super("/territories/territoryExample05-2.ter");
     }
 
     /**
      * Starts the game with a predetermined territory and lets Paule walk through a short test scenario.
+     * Do not modify!
      */
     @Override
     protected void run() {

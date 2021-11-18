@@ -3,16 +3,16 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
 import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.BaseControlFlowHamsterGame;
 
 import java.util.Optional;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class PutGrainsGame extends BaseControlFlowHamsterGame {
 
     public PutGrainsGame() {
-        super("/territories/territoryExample05-6.ter", Optional.of(2),Optional.of(4));
+        super("/territories/territoryExample05-6.ter", 2,4);
     }
 
     /**
      * Starts the game with a predetermined territory and lets Paule walk through a short test scenario.
+     * Do not modify!
      */
     @Override
     protected void run() {
@@ -23,7 +23,7 @@ public class PutGrainsGame extends BaseControlFlowHamsterGame {
         for (int i = 0; i < 11; i++) {
             paule.move();
         }
-        putGrains(randomValues.get().get(0));
-        putGrains(randomValues.get().get(1));
+        putGrains(randomParameters.get().get(0));
+        putGrains(randomParameters.get().get(1));
     }
 }

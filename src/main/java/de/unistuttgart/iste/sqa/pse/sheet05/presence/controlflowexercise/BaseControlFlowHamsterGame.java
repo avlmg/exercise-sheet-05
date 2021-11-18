@@ -1,5 +1,6 @@
 package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise;
 
+import de.hamstersimulator.objectsfirst.datatypes.Location;
 import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 
 import java.util.LinkedList;
@@ -16,34 +17,47 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 
-    protected Optional<List<Integer>> randomValues;
+    protected Optional<List<Integer>> randomParameters;
+
+    /**
+     * Constructor for the BaseControlFlowHamsterGame class.
+     * Do not modify!
+     *
+     * @param territoryFile file-path to the .ter file specifying the game territory
+     */
+    public BaseControlFlowHamsterGame(final String territoryFile) {
+        this.loadTerritoryFromResourceFile(territoryFile);
+        this.displayInNewGameWindow();
+        this.randomParameters = Optional.empty();
+        game.startGame();
+    }
 
     /**
      * Constructor for the BaseControlFlowHamsterGame class.
      * Provides the option to generate random values for use in game.
+     * Do not modify!
      *
      * @param territoryFile file-path to the .ter file specifying the game territory
      * @param numberOfValues optional amount of random values to generate
      * @param limit upper limit for random values(inclusive)
      */
-    public BaseControlFlowHamsterGame(final String territoryFile, final Optional<Integer> numberOfValues,
-            final Optional<Integer> limit) {
+    public BaseControlFlowHamsterGame(final String territoryFile, final Integer numberOfValues, final Integer limit) {
         this.loadTerritoryFromResourceFile(territoryFile);
         this.displayInNewGameWindow();
-        this.randomValues = numberOfValues.isEmpty() ? Optional.empty() :
-                generateRandomValues(numberOfValues.get(), limit.get());
+        this.randomParameters = generateRandomValues(numberOfValues, limit);
         game.startGame();
     }
 
     /**
      * Helper method for generating random values
      * Generates an array of random numbers from 1 to the defined limit(inclusive).
+     * Do not modify!
      *
      * @param numberOfValues amount of random values to generate
      * @param limit upper limit for random values(inclusive)
      * @return List of random values, length depends on number of values
      */
-    private Optional<List<Integer>> generateRandomValues(final int numberOfValues, Integer limit) {
+    private Optional<List<Integer>> generateRandomValues(final int numberOfValues, final Integer limit) {
         List<Integer> values = new LinkedList<>();
         for (int i = 0; i < numberOfValues; i++) {
             values.add(ThreadLocalRandom.current().nextInt(1, limit + 1));
@@ -89,7 +103,7 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
         //TODO: Please implement according to exercise 2(e-ii)/(e-iii)
     }
 
-    public Optional<List<Integer>> getRandomValue() {
-        return randomValues;
+    public Optional<List<Integer>> getRandomParameters() {
+        return randomParameters;
     }
 }
