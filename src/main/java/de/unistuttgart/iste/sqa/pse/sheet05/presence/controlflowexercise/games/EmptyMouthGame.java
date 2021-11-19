@@ -3,11 +3,12 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
 import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.BaseControlFlowHamsterGame;
 
 import java.util.Optional;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class EmptyMouthGame extends BaseControlFlowHamsterGame {
 
     public EmptyMouthGame() {
-        super("/territories/territoryExample05-7.ter", 2,5);
+        super("/territories/territoryExample05-7.ter");
     }
 
     /**
@@ -16,10 +17,7 @@ public class EmptyMouthGame extends BaseControlFlowHamsterGame {
      */
     @Override
     protected void run() {
-        for (int i = 0; i < getRandomParameters().get().get(0); i++) {
-            paule.pickGrain();
-        }
-        for (int i = 0; i < getRandomParameters().get().get(1); i++) {
+        while (paule.grainAvailable()) {
             paule.pickGrain();
         }
         for (int i = 0; i < 11; i++) {
