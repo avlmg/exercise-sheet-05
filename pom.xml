@@ -8,7 +8,7 @@
     <version>1.0.0</version>
 
 	<properties>
-		<hamster.version>4.3.4</hamster.version>
+		<hamster.version>5.0.0</hamster.version>
     </properties>
 
 	<dependencies>
@@ -23,18 +23,18 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.10.1</version>
 				<configuration>
-					<release>16</release>
-					<source>16</source>
-					<target>16</target>
+					<release>17</release>
+					<source>17</source>
+					<target>17</target>
 					<parameters>true</parameters>
 				</configuration>
             </plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
-				<version>3.0.0</version>
+				<version>3.1.0</version>
 				<executions>
 					<execution>
 						<id>PickAvailableGrainGameApp</id>
@@ -131,3 +131,4 @@
 		</plugins>
     </build>
 </project>
+
