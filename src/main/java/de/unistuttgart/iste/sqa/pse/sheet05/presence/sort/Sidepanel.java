@@ -5,5 +5,4 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.sort;
  *
  * @author Jane Doe
  */
-public class Sidepanel {
-}
+public class Sidepanel {}

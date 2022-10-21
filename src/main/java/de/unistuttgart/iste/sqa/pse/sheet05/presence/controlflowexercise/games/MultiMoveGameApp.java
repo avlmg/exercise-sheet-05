@@ -5,8 +5,8 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
  * Do not modify!
  */
 public class MultiMoveGameApp {
-    public static void main(String[] args) {
-        final MultiMoveGame game = new MultiMoveGame();
-        game.doRun();
-    }
+	public static void main(String[] args) {
+		final MultiMoveGame game = new MultiMoveGame();
+		game.doRun();
+	}
 }

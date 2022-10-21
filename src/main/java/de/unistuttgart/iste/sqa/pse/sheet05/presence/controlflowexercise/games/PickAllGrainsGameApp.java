@@ -6,8 +6,8 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
  */
 public class PickAllGrainsGameApp {
 
-    public static void main(String[] args) {
-        final PickAllGrainsGame game = new PickAllGrainsGame();
-        game.doRun();
-    }
+	public static void main(String[] args) {
+		final PickAllGrainsGame game = new PickAllGrainsGame();
+		game.doRun();
+	}
 }

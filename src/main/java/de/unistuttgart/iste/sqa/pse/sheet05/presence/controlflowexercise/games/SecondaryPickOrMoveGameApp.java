@@ -6,8 +6,8 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
  */
 public class SecondaryPickOrMoveGameApp {
 
-    public static void main(String[] args) {
-        final SecondaryPickOrMoveGame game = new SecondaryPickOrMoveGame();
-        game.doRun();
-    }
+	public static void main(String[] args) {
+		final SecondaryPickOrMoveGame game = new SecondaryPickOrMoveGame();
+		game.doRun();
+	}
 }
