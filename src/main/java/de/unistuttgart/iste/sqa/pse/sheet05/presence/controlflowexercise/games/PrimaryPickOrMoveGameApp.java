@@ -6,8 +6,8 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
  */
 public class PrimaryPickOrMoveGameApp {
 
-    public static void main(String[] args) {
-        final PrimaryPickOrMoveGame game = new PrimaryPickOrMoveGame();
-        game.doRun();
-    }
+	public static void main(String[] args) {
+		final PrimaryPickOrMoveGame game = new PrimaryPickOrMoveGame();
+		game.doRun();
+	}
 }

@@ -5,8 +5,8 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
  * Do not modify!
  */
 public class PrimaryCleaningGameApp {
-    public static void main(String[] args) {
-        final PrimaryCleaningGame game = new PrimaryCleaningGame();
-        game.doRun();
-    }
+	public static void main(String[] args) {
+		final PrimaryCleaningGame game = new PrimaryCleaningGame();
+		game.doRun();
+	}
 }

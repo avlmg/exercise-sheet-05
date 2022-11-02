@@ -6,8 +6,8 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
  */
 public class PickNonEmptyTilesGameApp {
 
-    public static void main(String[] args) {
-        final PickNonEmptyTilesGame game = new PickNonEmptyTilesGame();
-        game.doRun();
-    }
+	public static void main(String[] args) {
+		final PickNonEmptyTilesGame game = new PickNonEmptyTilesGame();
+		game.doRun();
+	}
 }

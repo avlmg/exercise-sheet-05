@@ -5,8 +5,8 @@ package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
  * Do not modify!
  */
 public class PutGrainsGameApp {
-    public static void main(String[] args) {
-        final PutGrainsGame game = new PutGrainsGame();
-        game.doRun();
-    }
+	public static void main(String[] args) {
+		final PutGrainsGame game = new PutGrainsGame();
+		game.doRun();
+	}
 }
