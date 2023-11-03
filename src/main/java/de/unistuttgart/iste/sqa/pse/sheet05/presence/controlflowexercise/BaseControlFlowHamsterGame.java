@@ -49,14 +49,14 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 	}
 
 	protected void putGrains(Integer amountOfGrains) {
-		// TODO: Please implement according to exercise 2(e-i)
+		// TODO: Please implement according to exercise 3(a)
 	}
 
 	protected void emptyMouth() {
-		// TODO: Please implement according to exercise 2(e-i)
+		// TODO: Please implement according to exercise 3(b)
 	}
 
 	protected void cleanTerritory() {
-		// TODO: Please implement according to exercise 2(e-ii)/(e-iii)
+		// TODO: Please implement according to exercise 3(c)/(d)
 	}
 }

@@ -3,7 +3,7 @@ package de.unistuttgart.iste.sqa.pse.sheet05.homework;
 import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 
 /**
- * In this hamster-game {@code paule} gets two new friends.
+ * In this hamster-game {@code paule} gets four new friends.
  *
  * @author (Your name)
  * @version (A date or a version number)
