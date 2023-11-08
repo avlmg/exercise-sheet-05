@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow;
 
 import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 

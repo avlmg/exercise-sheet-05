@@ -1,12 +1,12 @@
-package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise1.games;
 
 /**
  * This class contains the {@code main}-method, responsible for starting the game.
  * Do not modify!
  */
-public class PutGrainsGameApp {
+public class MultiMoveGameApp {
 	public static void main(String[] args) {
-		final PutGrainsGame game = new PutGrainsGame();
+		final MultiMoveGame game = new MultiMoveGame();
 		game.doRun();
 	}
 }

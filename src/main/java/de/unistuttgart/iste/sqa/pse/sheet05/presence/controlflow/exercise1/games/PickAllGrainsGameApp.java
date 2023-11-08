@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise1.games;
 
 /**
  * This class contains the {@code main}-method, responsible for starting the game.

@@ -1,11 +1,12 @@
-package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise2.games;
 
-import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.BaseControlFlowHamsterGame;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.BaseControlFlowHamsterGame;
 
 public class PutGrainsGame extends BaseControlFlowHamsterGame {
 

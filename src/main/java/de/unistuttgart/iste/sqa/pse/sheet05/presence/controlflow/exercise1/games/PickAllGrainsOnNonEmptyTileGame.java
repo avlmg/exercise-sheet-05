@@ -1,10 +1,10 @@
-package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games;
+package de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise1.games;
 
-import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.BaseControlFlowHamsterGame;
+import de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.BaseControlFlowHamsterGame;
 
-public class PickNonEmptyTilesGame extends BaseControlFlowHamsterGame {
+public class PickAllGrainsOnNonEmptyTileGame extends BaseControlFlowHamsterGame {
 
-	public PickNonEmptyTilesGame() {
+	public PickAllGrainsOnNonEmptyTileGame() {
 		super("/territories/territoryExample05-5.ter");
 	}
 
