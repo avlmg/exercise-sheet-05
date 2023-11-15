@@ -22,41 +22,60 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 		game.startGame();
 	}
 
+	
+	/*@
+	 @ ensures paule stands in front of a wall.
+	 @*/
+	/**
+	 * Move paule to the next wall.
+	 * 
+	 * This is an example for an operation with with pre- and postconditions and
+	 * loop(in)variants in natural language.
+	 */
+	protected void moveToWall() {
+		/*@
+		 @ loop_invariant paule moved number of already executed loop iterations steps.
+		 @ decreasing number of tiles between paule and the next wall.
+		 @*/
+		while(paule.frontIsClear()) {
+			paule.move();
+		}
+	}
+	
 	/*
-	 * Please implement your solutions for exercise 2 into the following methods.
+	 * Please implement your solutions into the following methods.
 	 * Remember to add the appropriate JavaDoc documentation and pre-post conditions for each operation
 	 * as well as the variants and loop invariants for any loops that are part of your implementation.
 	 */
-
 	protected void pickGrainIfAvailable() {
-		// TODO: Please implement according to exercise 2(b-i)
+		// TODO: Please implement according to exercise1(b-i)
 	}
 
 	protected void pickAllGrains() {
-		// TODO: Please implement according to exercise 2(b-ii)
+		// TODO: Please implement according to exercise 1(b-ii)
 	}
 
 	protected void multiMove(Integer times) {
-		// TODO: Please implement according to exercise 2(b-iii)
+		// TODO: Please implement according to exercise 1(b-iii)
 	}
 
 	protected void pickGrainOrMove() {
-		// TODO: Please implement according to exercise 2(b-iv)
+		// TODO: Please implement according to exercise 1(b-iv)
 	}
 
 	protected void pickAllGrainsOnNonEmptyTile() {
-		// TODO: Please implement according to exercise 2(b-v)
+		// TODO: Please implement according to exercise 1(b-v)
 	}
 
 	protected void putGrains(Integer amountOfGrains) {
-		// TODO: Please implement according to exercise 3(a)
+		// TODO: Please implement according to exercise 2(a)
 	}
 
 	protected void emptyMouth() {
-		// TODO: Please implement according to exercise 3(b)
+		// TODO: Please implement according to exercise 2(b)
 	}
 
 	protected void cleanTerritory() {
-		// TODO: Please implement according to exercise 3(c)/(d)
+		// TODO: Please implement according to exercise 2(c)/(d)
 	}
 }
