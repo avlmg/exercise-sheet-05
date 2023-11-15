@@ -9,7 +9,7 @@ The homework part continues teaching about classes, objects, references, contrac
 To install Java, set up your IDE and clone the repository into your workspace, please follow the instructions in exercise sheet `01`, Part `0 - Preparation`.  
 It contains multiple main classes, depending on the task. Available main classes are
 
-- PickAvailableGrainGameApp
+- PickGrainIfAvailableGameApp
 - PickAllGrainsGameApp
 - MultiMoveGameApp
 - PrimaryPickOrMoveGameApp

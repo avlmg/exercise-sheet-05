@@ -39,12 +39,12 @@
 				<version>3.1.0</version>
 				<executions>
 					<execution>
-						<id>PickAvailableGrainGameApp</id>
+						<id>PickGrainIfAvailableGameApp</id>
 						<goals>
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PickAvailableGrainGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise1.games.PickGrainIfAvailableGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
@@ -53,7 +53,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PickAllGrainsGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise1.games.PickAllGrainsGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
@@ -62,7 +62,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.MultiMoveGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise1.games.MultiMoveGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
@@ -71,7 +71,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PrimaryPickOrMoveGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise1.games.PrimaryPickOrMoveGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
@@ -80,16 +80,16 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.SecondaryPickOrMoveGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise1.games.SecondaryPickOrMoveGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
-						<id>PickNonEmptyTilesGameApp</id>
+						<id>PickAllGrainsOnNonEmptyTilesGameApp</id>
 						<goals>
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PickNonEmptyTilesGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise1.games.PickAllGrainsOnNonEmptyTilesGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
@@ -98,7 +98,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PutGrainsGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise2.games.PutGrainsGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
@@ -107,7 +107,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.EmptyMouthGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise2.games.EmptyMouthGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
@@ -116,7 +116,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.PrimaryCleaningGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise2.games.PrimaryCleaningGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
@@ -125,7 +125,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflowexercise.games.SecondaryCleaningGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise2.games.SecondaryCleaningGameApp</mainClass>
 						</configuration>
 					</execution>
 				</executions>
