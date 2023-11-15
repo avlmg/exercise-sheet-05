@@ -41,7 +41,7 @@ It contains multiple main classes, depending on the task. Available main classes
   ```
   so, for example:
   ```sh
-  mvn clean compile exec:java@PickAvailableGrainGameApp
+  mvn clean compile exec:java@PickGrainIfAvailableGameApp
   ```
   ```sh
   mvn clean compile exec:java@PickAllGrainsGameApp
