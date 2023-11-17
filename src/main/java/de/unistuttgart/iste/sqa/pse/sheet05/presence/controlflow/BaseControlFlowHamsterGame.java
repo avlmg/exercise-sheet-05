@@ -24,7 +24,7 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 
 	
 	/*@
-	 @ ensures paule stands in front of a wall.
+	 @ ensures that paule stands in front of a wall.
 	 @*/
 	/**
 	 * Move paule to the next wall.
@@ -47,35 +47,37 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 	 * Remember to add the appropriate JavaDoc documentation and pre-post conditions for each operation
 	 * as well as the variants and loop invariants for any loops that are part of your implementation.
 	 */
+	
+	
 	protected void pickGrainIfAvailable() {
-		// TODO: Please implement according to exercise1(b-i)
+		// TODO: Please implement according to exercise 1 (c-i)
 	}
 
 	protected void pickAllGrains() {
-		// TODO: Please implement according to exercise 1(b-ii)
+		// TODO: Please implement according to exercise 1 (c-ii)
 	}
 
 	protected void multiMove(Integer times) {
-		// TODO: Please implement according to exercise 1(b-iii)
+		// TODO: Please implement according to exercise 1 (c-iii)
 	}
 
 	protected void pickGrainOrMove() {
-		// TODO: Please implement according to exercise 1(b-iv)
+		// TODO: Please implement according to exercise 1 (c-iv)
 	}
 
 	protected void pickAllGrainsOnNonEmptyTile() {
-		// TODO: Please implement according to exercise 1(b-v)
+		// TODO: Please implement according to exercise 1 (c-v)
 	}
 
 	protected void putGrains(Integer amountOfGrains) {
-		// TODO: Please implement according to exercise 2(a)
+		// TODO: Please implement according to exercise 2 (a)
 	}
 
 	protected void emptyMouth() {
-		// TODO: Please implement according to exercise 2(b)
+		// TODO: Please implement according to exercise 2 (b)
 	}
 
 	protected void cleanTerritory() {
-		// TODO: Please implement according to exercise 2(c)/(d)
+		// TODO: Please implement according to exercise 2 (c)/(d)
 	}
 }
