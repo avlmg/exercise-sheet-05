@@ -47,15 +47,48 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 	 * Remember to add the appropriate JavaDoc documentation and pre-post conditions for each operation
 	 * as well as the variants and loop invariants for any loops that are part of your implementation.
 	 */
-	
-	
+
+	/**
+	 * If there is a grain on the tile, Paule should pick it up.
+	 *
+	 */
+	/*@
+	 @ @requires hamster !=null
+	 @ @ensures grain was picked or tile is empty
+	 @
+	 @*/
 	protected void pickGrainIfAvailable() {
-		// TODO: Please implement according to exercise 1 (c-i)
+		if (paule.grainAvailable()) {
+			paule.pickGrain();
+		}
 	}
 
+	/**
+	 * As long as there is a grain on the tile, Paule should pick it up.
+	 *
+	 */
+	/*@
+	 @ @requires hamster !=null
+	 @ @ensures grains were picked or tile is empty
+	 @
+	 @*/
 	protected void pickAllGrains() {
-		// TODO: Please implement according to exercise 1 (c-ii)
+		while (paule.grainAvailable()) {
+			paule.pickGrain();
+		}
 	}
+
+	/**
+	 * paule shall move multiple tiles in a line
+	 *
+	 */
+
+	/*@
+	 @ @requires hamster !=null
+	 @ @requires front is clear
+	 @ @ensures grains were picked or tile is empty
+	 @
+	 @*/
 
 	protected void multiMove(Integer times) {
 		// TODO: Please implement according to exercise 1 (c-iii)
