@@ -5,8 +5,8 @@ import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 /**
  * A new HamsterGame to try out some control flow structures.
  *
- * @author (your name)
- * @version (version number or date)
+ * @author AmoresSchneyinck
+ * @version 22.11.2023
  */
 public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 
