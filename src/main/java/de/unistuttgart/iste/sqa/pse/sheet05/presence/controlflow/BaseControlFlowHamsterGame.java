@@ -67,6 +67,7 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 	 * As long as there is a grain on the tile, Paule should pick it up.
 	 *
 	 */
+
 	/*@
 	 @ @requires hamster !=null
 	 @ @ensures grains were picked or tile is empty
@@ -93,7 +94,16 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 	protected void multiMove(Integer times) {
 		// TODO: Please implement according to exercise 1 (c-iii)
 	}
+	/**
+	 * As long as there is a grain on the tile, Paule should pick it up.
+	 *
+	 */
 
+	/*@
+	 @ @requires hamster !=null
+	 @ @ensures grains were picked or tile is empty
+	 @
+	 @*/
 	protected void pickGrainOrMove() {
 		// TODO: Please implement according to exercise 1 (c-iv)
 	}
