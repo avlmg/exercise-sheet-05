@@ -36,6 +36,7 @@ public class HamsterPartyGame extends SimpleHamsterGame {
 		}
 
 		public boolean getName() {
+		return name;
 		}
 	}
 
@@ -50,17 +51,18 @@ public class HamsterPartyGame extends SimpleHamsterGame {
 		// Platzieren der Hamster auf Feldern mit Korn
 		placeHamsterOnFieldWithGrain(adam);
 		placeHamsterOnFieldWithGrain(eve);
+
 	}
 
 	/**
-	 * Platziert den Hamster auf einem Feld mit Korn.
+	 * places hamster on tile with corn
 	 *
-	 * @param hamster Der Hamster, der platziert werden soll.
+	 * @param hamster the hamster that is to be placed
 	 */
 	private void placeHamsterOnFieldWithGrain(Hamster hamster) {
 		// Hier könnten Sie die Logik hinzufügen, um den Hamster auf einem Feld mit Korn zu platzieren.
 		// Beispiel: hamster.move(); oder hamster.grab();
-		System.out.println(hamster.getName() + " wurde auf ein Feld mit Korn platziert.");
+		System.out.println(hamster.getName() + " has been placed on a tile with corn");
 	}
 
 	public static void main(String[] args) {
